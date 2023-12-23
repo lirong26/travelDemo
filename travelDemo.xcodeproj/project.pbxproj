@@ -12,6 +12,9 @@
 		2B01002F2B36858300D0644D /* CommonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01002C2B36858300D0644D /* CommonCardView.swift */; };
 		2B0100312B36859500D0644D /* CreateOwnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0100302B36859500D0644D /* CreateOwnViewController.swift */; };
 		2B0100332B368C5D00D0644D /* ProfileOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0100322B368C5D00D0644D /* ProfileOneViewController.swift */; };
+		2B0100352B36AC9400D0644D /* CalanderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0100342B36AC9400D0644D /* CalanderViewController.swift */; };
+		2B0100372B36AFCB00D0644D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0100362B36AFCB00D0644D /* Utils.swift */; };
+		2B0100392B36C06A00D0644D /* NavigatorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0100382B36C06A00D0644D /* NavigatorBar.swift */; };
 		4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */; };
 		4780B1852B349A6700FFF891 /* ProfileTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B1842B349A6700FFF891 /* ProfileTwoViewController.swift */; };
 		4780B1892B34B26100FFF891 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B1882B34B26100FFF891 /* HomeViewController.swift */; };
@@ -57,6 +60,9 @@
 		2B01002C2B36858300D0644D /* CommonCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCardView.swift; sourceTree = "<group>"; };
 		2B0100302B36859500D0644D /* CreateOwnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOwnViewController.swift; sourceTree = "<group>"; };
 		2B0100322B368C5D00D0644D /* ProfileOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOneViewController.swift; sourceTree = "<group>"; };
+		2B0100342B36AC9400D0644D /* CalanderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanderViewController.swift; sourceTree = "<group>"; };
+		2B0100362B36AFCB00D0644D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		2B0100382B36C06A00D0644D /* NavigatorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorBar.swift; sourceTree = "<group>"; };
 		472503615225A67207F25362 /* Pods-travelDemo-travelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelDemo-travelDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
 		4780B1842B349A6700FFF891 /* ProfileTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTwoViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 				2B01002A2B36858300D0644D /* CommonButton.swift */,
 				2B01002B2B36858300D0644D /* RoundHeaderView.swift */,
 				2B01002C2B36858300D0644D /* CommonCardView.swift */,
+				2B0100382B36C06A00D0644D /* NavigatorBar.swift */,
+				2B0100362B36AFCB00D0644D /* Utils.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +175,7 @@
 				4780B18E2B34E17200FFF891 /* HitTestView.swift */,
 				4780B1902B34E5B100FFF891 /* ToolboxViewController.swift */,
 				2B0100322B368C5D00D0644D /* ProfileOneViewController.swift */,
+				2B0100342B36AC9400D0644D /* CalanderViewController.swift */,
 			);
 			path = travelDemo;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 				47D9D0E92B32E01D00785291 /* Sources */,
 				47D9D0EA2B32E01D00785291 /* Frameworks */,
 				47D9D0EB2B32E01D00785291 /* Resources */,
+				7688046F7173B069FBE57925 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +269,7 @@
 				47D9D1092B32E01E00785291 /* Sources */,
 				47D9D10A2B32E01E00785291 /* Frameworks */,
 				47D9D10B2B32E01E00785291 /* Resources */,
+				288768BA572DCB33038EAA15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -363,6 +374,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		288768BA572DCB33038EAA15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7688046F7173B069FBE57925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo/Pods-travelDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo/Pods-travelDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-travelDemo/Pods-travelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A0EFACECF1C899CCCEF6E7DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,14 +459,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0100352B36AC9400D0644D /* CalanderViewController.swift in Sources */,
 				47D9D0F52B32E01D00785291 /* ViewController.swift in Sources */,
 				4780B1852B349A6700FFF891 /* ProfileTwoViewController.swift in Sources */,
 				2B01002F2B36858300D0644D /* CommonCardView.swift in Sources */,
 				2B01002D2B36858300D0644D /* CommonButton.swift in Sources */,
+				2B0100392B36C06A00D0644D /* NavigatorBar.swift in Sources */,
 				4780B18D2B34DFC200FFF891 /* RouteListViewController.swift in Sources */,
 				2B01002E2B36858300D0644D /* RoundHeaderView.swift in Sources */,
 				4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */,
 				2B0100312B36859500D0644D /* CreateOwnViewController.swift in Sources */,
+				2B0100372B36AFCB00D0644D /* Utils.swift in Sources */,
 				47D9D0F12B32E01D00785291 /* AppDelegate.swift in Sources */,
 				47D9D0F32B32E01D00785291 /* SceneDelegate.swift in Sources */,
 				4780B1892B34B26100FFF891 /* HomeViewController.swift in Sources */,
@@ -612,6 +660,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2XGHV2H886;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = travelDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -642,6 +691,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2XGHV2H886;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = travelDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

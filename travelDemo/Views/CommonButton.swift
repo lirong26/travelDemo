@@ -10,7 +10,7 @@ import UIKit
 class CommonButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor(red: 233 / 255.0, green: 65 / 255.0, blue: 136 / 255.0, alpha: 1.0)
+        backgroundColor = UIColor.pinkColor()
         self.layer.cornerRadius = 10
         self.layer.masksToBounds = true
         self.titleLabel?.tintColor = .white
