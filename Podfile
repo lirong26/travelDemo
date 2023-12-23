@@ -5,6 +5,10 @@ target 'travelDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'CalendarKit'
+  pod 'SwiftyGif'
+
+
   # Pods for travelDemo
 
   target 'travelDemoTests' do
