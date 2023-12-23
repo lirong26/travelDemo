@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "trophy.png",
+      "filename" : "Icon trophy 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "trophy 1.png",
+      "filename" : "Icon trophy.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

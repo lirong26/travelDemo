@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "circle.png",
+      "filename" : "Circle.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "circle 1.png",
+      "filename" : "Circle 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
