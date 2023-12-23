@@ -33,7 +33,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let location = locations.last
         let latitude = location?.coordinate.latitude ?? -33.86
         let longitude = location?.coordinate.longitude ?? 151.20
-        mapView.camera = GMSCameraPosition(latitude: latitude, longitude: longitude, zoom: 20)
+        mapView.camera = GMSCameraPosition(latitude: latitude, longitude: longitude, zoom: 15)
         
     }
     

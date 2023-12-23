@@ -8,7 +8,7 @@ target 'travelDemo' do
   pod 'CalendarKit'
   pod 'SwiftyGif'
   pod 'GoogleMaps'
-
+  pod "RQShineLabel"
 
   # Pods for travelDemo
 

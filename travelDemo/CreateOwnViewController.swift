@@ -12,7 +12,6 @@ class CreateOwnViewController: UIViewController {
     var header: RoundHeaderView! = RoundHeaderView(title: "Create your Own Tour")
     var backgroundImageView: UIImageView! = UIImageView()
     var blurView = UIVisualEffectView(effect: UIBlurEffect(style: .light))
-    var topAnchor: NSLayoutConstraint = NSLayoutConstraint()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +27,7 @@ class CreateOwnViewController: UIViewController {
         blurView.translatesAutoresizingMaskIntoConstraints = false
         blurView.layer.cornerRadius = 10
         blurView.layer.masksToBounds = true
+        blurView.alpha = 0.8
         view.addSubview(blurView)
         
         NSLayoutConstraint.activate([
@@ -54,15 +54,19 @@ class CreateOwnViewController: UIViewController {
     @objc
     func onclickNext(btn: UIButton) {
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        var viewController = mainStoryboard.instantiateViewController(identifier: "ProfileOneViewController")
+        let viewController = mainStoryboard.instantiateViewController(identifier: "ProfileOneViewController")
         self.navigationController?.pushViewController(viewController, animated: true);
     }
     func addInfo() {
         blurView.contentView.subviews.forEach { sub in
             sub.removeFromSuperview()
         }
-        let title = ["Tell your information", "Generate", "Generate", "Generate", "Generate"]
-        let icon = ["person", "person", "person", "person", "person"]
+        let title = ["Tell your information",
+                     "Generate winderfully route of your own",
+                     "Have adventure during the tour",
+                     "Get the reward",
+                     "End tour with your amazing memory"]
+        let icon = ["person", "route", "Mission", "Reward", "end_memory"]
         
         var current: UIView?
         for i in 0..<icon.count {

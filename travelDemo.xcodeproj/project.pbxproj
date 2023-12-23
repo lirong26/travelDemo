@@ -17,6 +17,8 @@
 		2B0100392B36C06A00D0644D /* NavigatorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0100382B36C06A00D0644D /* NavigatorBar.swift */; };
 		2B01003C2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B01003B2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif */; };
 		2B01003E2B36D58F00D0644D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01003D2B36D58F00D0644D /* LandingViewController.swift */; };
+		2BA5F3D02B37175E00393339 /* ProcessLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */; };
+		2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3D12B371BD700393339 /* LoadingCardView.swift */; };
 		4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */; };
 		4780B1852B349A6700FFF891 /* ProfileTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B1842B349A6700FFF891 /* ProfileTwoViewController.swift */; };
 		4780B1892B34B26100FFF891 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B1882B34B26100FFF891 /* HomeViewController.swift */; };
@@ -67,6 +69,8 @@
 		2B0100382B36C06A00D0644D /* NavigatorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorBar.swift; sourceTree = "<group>"; };
 		2B01003B2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif; sourceTree = "<group>"; };
 		2B01003D2B36D58F00D0644D /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessLoadingView.swift; sourceTree = "<group>"; };
+		2BA5F3D12B371BD700393339 /* LoadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCardView.swift; sourceTree = "<group>"; };
 		472503615225A67207F25362 /* Pods-travelDemo-travelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelDemo-travelDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
 		4780B1842B349A6700FFF891 /* ProfileTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTwoViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				2B01002C2B36858300D0644D /* CommonCardView.swift */,
 				2B0100382B36C06A00D0644D /* NavigatorBar.swift */,
 				2B0100362B36AFCB00D0644D /* Utils.swift */,
+				2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */,
+				2BA5F3D12B371BD700393339 /* LoadingCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -519,6 +525,7 @@
 				4780B18D2B34DFC200FFF891 /* RouteListViewController.swift in Sources */,
 				2B01002E2B36858300D0644D /* RoundHeaderView.swift in Sources */,
 				4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */,
+				2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */,
 				2B0100312B36859500D0644D /* CreateOwnViewController.swift in Sources */,
 				2B0100372B36AFCB00D0644D /* Utils.swift in Sources */,
 				47D9D0F12B32E01D00785291 /* AppDelegate.swift in Sources */,
@@ -529,6 +536,7 @@
 				4780B1912B34E5B100FFF891 /* ToolboxViewController.swift in Sources */,
 				2B0100332B368C5D00D0644D /* ProfileOneViewController.swift in Sources */,
 				4780B18B2B34B2A200FFF891 /* GenerateViewController.swift in Sources */,
+				2BA5F3D02B37175E00393339 /* ProcessLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

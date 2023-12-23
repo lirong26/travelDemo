@@ -20,4 +20,7 @@ extension UIColor {
     static func purpleColor() -> UIColor {
         return UIColor(red: 182 / 255.0, green: 47 / 255.0, blue: 188 / 255.0, alpha: 1.0)
     }
+    static func greyColor() -> UIColor {
+        return UIColor(red: 242 / 255.0, green: 242 / 255.0, blue: 242 / 255.0, alpha: 1.0)
+    }
 }

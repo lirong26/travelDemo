@@ -9,7 +9,12 @@ import Foundation
 import UIKit
 
 class ToolboxViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-    
+    let cellGroup = [
+        ["Wallet","Traffic","Simcard","Schedule"],
+        ["Restaurant","Hotel","Shopping","Viewpoint"],
+        ["Share","Mission","Reward","Memory"]
+    ]
+
     
     @IBAction func homeButton(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
@@ -28,13 +33,17 @@ class ToolboxViewController: UIViewController, UICollectionViewDataSource, UICol
         return 4
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let title = cellGroup[indexPath.section][indexPath.row] as? String, title == "Schedule" {
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = mainStoryboard.instantiateViewController(identifier: "CalanderViewController")
+            self.navigationController?.pushViewController(viewController, animated: true);
+        }
+        
+    }
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell =  collectionView.dequeueReusableCell(withReuseIdentifier: "toolboxCell", for: indexPath) as! ToolboxCollectionViewCell
-        let cellGroup = [
-            ["Wallet","Traffic","Simcard","Schedule"],
-            ["Restaurant","Hotel","Shopping","Viewpoint"],
-            ["Share","Mission","Reward","Memory"]
-        ]
         guard indexPath.section < cellGroup.count else {
             return cell
         }
