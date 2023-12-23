@@ -76,7 +76,7 @@
                                     <color key="baseBackgroundColor" red="0.84313726430000002" green="0.30980393290000002" blue="0.52941179279999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6oB-uY-BXi" kind="show" id="9qQ-JS-o2T"/>
+                                    <segue destination="wUS-nr-xeF" kind="show" id="57M-nf-ODj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -118,7 +118,7 @@
                                     <color key="baseBackgroundColor" red="0.84313726430000002" green="0.30980393290000002" blue="0.52941179279999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="j50-pJ-1Sb" kind="show" id="ojI-Fu-Fwc"/>
+                                    <segue destination="wUS-nr-xeF" kind="show" id="sUj-jB-k3C"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6V-OB-5Ii">
@@ -486,7 +486,7 @@
         <!--Generate View Controller-->
         <scene sceneID="NEQ-QH-RAB">
             <objects>
-                <viewController id="xg1-Hl-KIM" userLabel="Generate View Controller" customClass="GenerateViewController" customModule="travelDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GenerateViewController" id="xg1-Hl-KIM" userLabel="Generate View Controller" customClass="GenerateViewController" customModule="travelDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="AIi-rH-Zo4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -731,6 +731,7 @@
                         <viewLayoutGuide key="safeArea" id="tTx-1y-4e3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="n4D-eZ-ddT"/>
                     <connections>
                         <outlet property="toolboxCollectionView" destination="PwB-OY-zPM" id="MKH-hG-KXh"/>
                     </connections>
@@ -781,7 +782,45 @@
             </objects>
             <point key="canvasLocation" x="1936.6412213740457" y="429.57746478873241"/>
         </scene>
+        <!--Landing View Controller-->
+        <scene sceneID="poK-A7-ahN">
+            <objects>
+                <viewController id="wUS-nr-xeF" userLabel="Landing View Controller" customClass="LandingViewController" customModule="travelDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nz0-zp-H9W">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Drz-Gn-BC7">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBm-5P-NeG" customClass="CommonButton" customModule="travelDemo" customModuleProvider="target">
+                                <rect key="frame" x="45" y="666" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="j50-pJ-1Sb" kind="show" id="XnI-i7-ypO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="N6O-dV-Dcw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ewG-MW-VO1"/>
+                    <connections>
+                        <outlet property="btn" destination="NBm-5P-NeG" id="TLe-eh-sf8"/>
+                        <outlet property="imageView" destination="Drz-Gn-BC7" id="E0U-pD-sAC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6by-u0-OaQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-460" y="-720"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="sUj-jB-k3C"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="avatar" width="57" height="54"/>
         <image name="back" width="28" height="28"/>

@@ -17,5 +17,9 @@ class CommonButton: UIButton {
     }
     required init?(coder: NSCoder) {
         super.init(frame: .zero)
+        backgroundColor = UIColor.pinkColor()
+        self.layer.cornerRadius = 10
+        self.layer.masksToBounds = true
+        self.titleLabel?.tintColor = .white
     }
 }

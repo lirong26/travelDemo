@@ -6,6 +6,8 @@ target 'travelDemo' do
   use_frameworks!
 
   pod 'CalendarKit'
+  pod 'SwiftyGif'
+
 
   # Pods for travelDemo
 
