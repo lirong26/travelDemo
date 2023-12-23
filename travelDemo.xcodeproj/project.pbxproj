@@ -246,6 +246,7 @@
 				47D9D0EA2B32E01D00785291 /* Frameworks */,
 				47D9D0EB2B32E01D00785291 /* Resources */,
 				7688046F7173B069FBE57925 /* [CP] Embed Pods Frameworks */,
+				AAE4B1AB54B27BFDA401472C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +285,7 @@
 				47D9D10A2B32E01E00785291 /* Frameworks */,
 				47D9D10B2B32E01E00785291 /* Resources */,
 				288768BA572DCB33038EAA15 /* [CP] Embed Pods Frameworks */,
+				4E19021E1B3C4DE684FCBF04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -406,6 +408,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4E19021E1B3C4DE684FCBF04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7688046F7173B069FBE57925 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,6 +462,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE4B1AB54B27BFDA401472C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo/Pods-travelDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-travelDemo/Pods-travelDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-travelDemo/Pods-travelDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EAAB2161932A3D38348BBDD8 /* [CP] Check Pods Manifest.lock */ = {

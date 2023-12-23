@@ -7,6 +7,7 @@ target 'travelDemo' do
 
   pod 'CalendarKit'
   pod 'SwiftyGif'
+  pod 'GoogleMaps'
 
 
   # Pods for travelDemo

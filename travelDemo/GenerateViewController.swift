@@ -30,14 +30,14 @@ class GenerateViewController: UIViewController {
     }
     
     @objc func timeChanged() {
-//        NSLog("1s has passed")
-//        
-//        if progressView.progress < 1 {
-//            progressView.progress += 0.5
-//        } else {
-//            progressTimer?.invalidate()
-//            performSegue(withIdentifier: "generateToHome", sender: nil)
-//        }
+        NSLog("1s has passed")
+        
+        if progressView.progress < 1 {
+            progressView.progress += 0.5
+        } else {
+            progressTimer?.invalidate()
+            performSegue(withIdentifier: "generateToHome", sender: nil)
+        }
     }
     
 }

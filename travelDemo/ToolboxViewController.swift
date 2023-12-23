@@ -10,6 +10,11 @@ import UIKit
 
 class ToolboxViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
+    
+    @IBAction func homeButton(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     @IBOutlet weak var toolboxCollectionView: UICollectionView!
     
     override func viewDidLoad() {

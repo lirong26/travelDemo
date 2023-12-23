@@ -19,4 +19,13 @@ extension UIView {
         }
     }
     
+    @IBInspectable var layerColor: UIColor {
+        get {
+            return UIColor(cgColor: layer.backgroundColor ?? CGColor(red: 0, green: 0, blue: 0, alpha: 0))
+        }
+        set {
+            layer.backgroundColor = newValue.cgColor
+        }
+    }
+    
 }
