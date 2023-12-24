@@ -34,10 +34,13 @@ class ToolboxViewController: UIViewController, UICollectionViewDataSource, UICol
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let title = cellGroup[indexPath.section][indexPath.row] as? String, title == "Schedule" {
+        let title = cellGroup[indexPath.section][indexPath.row]
+        if title == "Schedule" {
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let viewController = mainStoryboard.instantiateViewController(identifier: "CalanderViewController")
             self.navigationController?.pushViewController(viewController, animated: true);
+        } else if title == "Restaurant" {
+            performSegue(withIdentifier: "toRestaurant", sender: nil)
         }
         
     }

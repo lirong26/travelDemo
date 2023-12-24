@@ -50,6 +50,13 @@ class RouteListViewController: UIViewController, UICollectionViewDelegate, UICol
         return CGSize(width: collectionView.bounds.width, height: (collectionView.bounds.height - 3) / 4.0)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        for cell in collectionView.visibleCells {
+            (cell as! RouteListCell).selectImage.image = UIImage(named: "radio_unchecked")
+        }
+        let cell = collectionView.cellForItem(at: indexPath)
+        (cell as! RouteListCell).selectImage.image = UIImage(named: "radio")
+    }
 }
 
 class RouteListCell: UICollectionViewCell {
