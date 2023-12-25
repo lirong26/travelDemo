@@ -38,7 +38,6 @@ class CommonCardView: UIView {
             titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
             titleLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
         ])
-        
     }
     
     required init?(coder: NSCoder) {
