@@ -27,7 +27,6 @@ class CreateOwnViewController: UIViewController {
         blurView.translatesAutoresizingMaskIntoConstraints = false
         blurView.layer.cornerRadius = 10
         blurView.layer.masksToBounds = true
-        blurView.alpha = 0.8
         view.addSubview(blurView)
         
         NSLayoutConstraint.activate([
