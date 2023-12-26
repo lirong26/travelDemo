@@ -41,6 +41,8 @@ class ToolboxViewController: UIViewController, UICollectionViewDataSource, UICol
             self.navigationController?.pushViewController(viewController, animated: true);
         } else if title == "Restaurant" {
             performSegue(withIdentifier: "toRestaurant", sender: nil)
+        } else if title == "Memory" {
+            performSegue(withIdentifier: "toMemory", sender: nil)
         }
         
     }

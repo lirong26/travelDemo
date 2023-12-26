@@ -22,6 +22,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         options.frame = mapContainerView.bounds
         mapView = GMSMapView(options: options)
         mapContainerView.addSubview(mapView)
+        mapContainerView.sendSubviewToBack(mapView)
         
         locationManager = CLLocationManager()
         locationManager?.delegate = self

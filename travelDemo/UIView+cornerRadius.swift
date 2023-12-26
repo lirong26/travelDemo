@@ -65,13 +65,13 @@ extension UIView {
     }
 }
 
-//extension UILabel {
-//    @IBInspectable var shadowColor: UIColor {
-//        get {
-//            return UIColor(cgColor: layer.shadowColor ?? CGColor(red: 0, green: 0, blue: 0, alpha: 0))
-//        }
-//        set {
-//            layer.shadowColor = newValue.cgColor
-//        }
-//    }
-//}
+extension UIButton {
+    @IBInspectable var numberOfLines: Int {
+        get {
+            return titleLabel?.numberOfLines ?? 0
+        }
+        set {
+            titleLabel?.numberOfLines = newValue
+        }
+    }
+}
