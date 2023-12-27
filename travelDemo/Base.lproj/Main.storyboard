@@ -80,7 +80,7 @@
         <!--Login View Controller-->
         <scene sceneID="SyJ-aF-Grz">
             <objects>
-                <viewController id="G2R-6e-d5h" userLabel="Login View Controller" sceneMemberID="viewController">
+                <viewController id="G2R-6e-d5h" userLabel="Login View Controller" customClass="LoginViewController" customModule="travelDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9TK-a8-lbh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,6 +136,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="61d-dE-1kZ"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="pGU-hC-JRP" id="9px-eA-Jb5"/>
+                        <outlet property="verifyTextField" destination="6Ry-oT-kJW" id="wnY-qf-3TQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DsH-Oc-PwT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -270,6 +274,7 @@
                     <connections>
                         <outlet property="femaleBtn" destination="ZqP-e1-aBM" id="mcU-uL-n9Q"/>
                         <outlet property="maleBtn" destination="Gwd-fZ-4fU" id="atx-Dh-oFU"/>
+                        <outlet property="nameTextField" destination="3aO-tu-tIJ" id="fqj-4U-NZ4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwv-gN-WVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -928,7 +933,7 @@
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vertical divider Green" translatesAutoresizingMaskIntoConstraints="NO" id="gyn-KI-sjG">
                                         <rect key="frame" x="299" y="179" width="18" height="179"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Memory belong to you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-7l-8eO">
                                         <rect key="frame" x="0.0" y="113" width="393" height="57"/>
@@ -1173,7 +1178,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Convenient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLX-f0-zz6">
-                                            <rect key="frame" x="7" y="-1" width="323" height="47"/>
+                                            <rect key="frame" x="6" y="-2" width="322" height="47"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <color key="textColor" red="0.65882354970000001" green="0.22745099660000001" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
