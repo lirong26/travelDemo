@@ -28,7 +28,7 @@ class MemoryViewController: UIViewController, UICollectionViewDelegate, UICollec
         pageView.frame = CGRect(x: 0, y: UIScreen.main.bounds.height, width: UIScreen.main.bounds.width, height: 200)
         headerView.alpha = 0.8
         pageView.alpha = 0.8
-        UIView.animate(withDuration: 1) {
+        UIView.animate(withDuration: 0.5) {
             self.headerView.alpha = 1
             self.headerView.frame = CGRect(x: 0, y: -100 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width, height: 200)
             self.pageView.alpha = 1
@@ -45,12 +45,12 @@ class MemoryViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.y + scrollView.frame.height > scrollView.contentSize.height - 10 {
-            UIView.animate(withDuration: 1) {
+            UIView.animate(withDuration: 0.5) {
                 self.pageView.alpha = 0
                 self.pageView.frame = CGRect(x: 0, y: UIScreen.main.bounds.height, width: UIScreen.main.bounds.width, height: 200)
             }
         } else {
-            UIView.animate(withDuration: 1) {
+            UIView.animate(withDuration: 0.5) {
                 self.pageView.alpha = 1
                 self.pageView.frame = CGRect(x: 0, y: UIScreen.main.bounds.height - 50, width: UIScreen.main.bounds.width, height: 200)
             }

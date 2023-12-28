@@ -17,7 +17,7 @@ class GenerateViewController: UIViewController {
         view.addSubview(header)
         header.frame = CGRect(x: -150, y: -150 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width + 300, height: 200)
         header.alpha = 0.8
-        UIView.animate(withDuration: 1) {
+        UIView.animate(withDuration: 0.5) {
             self.header.alpha = 1
             self.header.frame = CGRect(x: -150, y: -100 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width + 300, height: 200)
         }
@@ -47,12 +47,12 @@ class GenerateViewController: UIViewController {
         addInfo()
         var timeout = 0
         infos.forEach { card in
-            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(timeout), execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(timeout), execute: {
                 card.status = .loading
             })
             timeout = timeout + 2
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(timeout + 1), execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(timeout + 1), execute: {
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let viewController = mainStoryboard.instantiateViewController(identifier: "HomeViewController")
             self.navigationController?.pushViewController(viewController, animated: true);

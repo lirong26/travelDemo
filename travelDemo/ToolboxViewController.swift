@@ -43,6 +43,8 @@ class ToolboxViewController: UIViewController, UICollectionViewDataSource, UICol
             performSegue(withIdentifier: "toRestaurant", sender: nil)
         } else if title == "Memory" {
             performSegue(withIdentifier: "toMemory", sender: nil)
+        } else if title == "Share" {
+            performSegue(withIdentifier: "toShare", sender: nil)
         }
         
     }

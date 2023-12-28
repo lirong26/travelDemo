@@ -15,6 +15,10 @@ class RouteListViewController: UIViewController, UICollectionViewDelegate, UICol
         self.dismiss(animated: true)
     }
     
+    @IBAction func backgroundBtn(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

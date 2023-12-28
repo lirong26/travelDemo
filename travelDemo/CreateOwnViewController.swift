@@ -19,7 +19,7 @@ class CreateOwnViewController: UIViewController {
         view.addSubview(header)
         header.frame = CGRect(x: -150, y: -150 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width + 300, height: 200)
         header.alpha = 0.8
-        UIView.animate(withDuration: 1) {
+        UIView.animate(withDuration: 0.5) {
             self.header.alpha = 1
             self.header.frame = CGRect(x: -150, y: -100 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width + 300, height: 200)
         }

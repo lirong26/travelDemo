@@ -22,13 +22,17 @@ class ProfileOneViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nameTextField: UITextField!
     var header: RoundHeaderView! = RoundHeaderView(title: "Profile 1/2")
     
+    @IBAction func menuAction(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         view.addSubview(header)
         header.frame = CGRect(x: -150, y: -150 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width + 300, height: 200)
         header.alpha = 0.8
-        UIView.animate(withDuration: 1) {
+        UIView.animate(withDuration: 0.5) {
             self.header.alpha = 1
             self.header.frame = CGRect(x: -150, y: -100 + (UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0), width: UIScreen.main.bounds.width + 300, height: 200)
         }

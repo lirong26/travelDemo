@@ -20,7 +20,6 @@
 		2BA5F3D02B37175E00393339 /* ProcessLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */; };
 		2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3D12B371BD700393339 /* LoadingCardView.swift */; };
 		4727FD072B3AE70500093E9A /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727FD062B3AE70500093E9A /* MemoryViewController.swift */; };
-		472D1A3B2B39AABB0084765D /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 472D1A3A2B39AABB0084765D /* welcome.gif */; };
 		474B17772B3AD979005B4697 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B17762B3AD979005B4697 /* PaymentViewController.swift */; };
 		475898A82B3ACCFA001475E6 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475898A72B3ACCFA001475E6 /* HotelViewController.swift */; };
 		4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */; };
@@ -34,6 +33,9 @@
 		47C51E422B3B29E300ED8F3B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C51E412B3B29E300ED8F3B /* launch.png */; };
 		47C51E442B3B29EB00ED8F3B /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C51E432B3B29EB00ED8F3B /* discover.png */; };
 		47D393B62B3C5329003F7BDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D393B52B3C5329003F7BDD /* LoginViewController.swift */; };
+		47D393B82B3D5BFB003F7BDD /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 47D393B72B3D5BFB003F7BDD /* welcome.gif */; };
+		47D8F2FA2B3D8467000D9CA8 /* CastleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8F2F92B3D8467000D9CA8 /* CastleViewController.swift */; };
+		47D8F2FC2B3D93C1000D9CA8 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8F2FB2B3D93C1000D9CA8 /* ShareViewController.swift */; };
 		47D9D0F12B32E01D00785291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D0F02B32E01D00785291 /* AppDelegate.swift */; };
 		47D9D0F32B32E01D00785291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D0F22B32E01D00785291 /* SceneDelegate.swift */; };
 		47D9D0F52B32E01D00785291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D0F42B32E01D00785291 /* ViewController.swift */; };
@@ -81,7 +83,6 @@
 		2BA5F3D12B371BD700393339 /* LoadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCardView.swift; sourceTree = "<group>"; };
 		472503615225A67207F25362 /* Pods-travelDemo-travelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelDemo-travelDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4727FD062B3AE70500093E9A /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
-		472D1A3A2B39AABB0084765D /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = welcome.gif; sourceTree = "<group>"; };
 		474B17762B3AD979005B4697 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		475898A72B3ACCFA001475E6 /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
 		4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
@@ -95,6 +96,9 @@
 		47C51E412B3B29E300ED8F3B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		47C51E432B3B29EB00ED8F3B /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
 		47D393B52B3C5329003F7BDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		47D393B72B3D5BFB003F7BDD /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = welcome.gif; path = "../../../../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/649b4e28ca86fd44acbe3b417209ab0c/Message/MessageTemp/34c8956d7f0828cf89a147342484abcf/File/welcome.gif"; sourceTree = "<group>"; };
+		47D8F2F92B3D8467000D9CA8 /* CastleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleViewController.swift; sourceTree = "<group>"; };
+		47D8F2FB2B3D93C1000D9CA8 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		47D9D0ED2B32E01D00785291 /* travelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D9D0F02B32E01D00785291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47D9D0F22B32E01D00785291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,7 +168,7 @@
 			children = (
 				2B01003B2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif */,
 				47C51E432B3B29EB00ED8F3B /* discover.png */,
-				472D1A3A2B39AABB0084765D /* welcome.gif */,
+				47D393B72B3D5BFB003F7BDD /* welcome.gif */,
 				47C51E412B3B29E300ED8F3B /* launch.png */,
 			);
 			path = Source;
@@ -220,6 +224,8 @@
 				474B17762B3AD979005B4697 /* PaymentViewController.swift */,
 				4727FD062B3AE70500093E9A /* MemoryViewController.swift */,
 				47D393B52B3C5329003F7BDD /* LoginViewController.swift */,
+				47D8F2F92B3D8467000D9CA8 /* CastleViewController.swift */,
+				47D8F2FB2B3D93C1000D9CA8 /* ShareViewController.swift */,
 			);
 			path = travelDemo;
 			sourceTree = "<group>";
@@ -378,9 +384,9 @@
 				47C51E422B3B29E300ED8F3B /* launch.png in Resources */,
 				47D9D0FD2B32E01E00785291 /* LaunchScreen.storyboard in Resources */,
 				47C51E442B3B29EB00ED8F3B /* discover.png in Resources */,
+				47D393B82B3D5BFB003F7BDD /* welcome.gif in Resources */,
 				2B01003C2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif in Resources */,
 				47D9D0FA2B32E01E00785291 /* Assets.xcassets in Resources */,
-				472D1A3B2B39AABB0084765D /* welcome.gif in Resources */,
 				47D9D0F82B32E01D00785291 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,6 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D8F2FA2B3D8467000D9CA8 /* CastleViewController.swift in Sources */,
 				2B0100352B36AC9400D0644D /* CalanderViewController.swift in Sources */,
 				47D9D0F52B32E01D00785291 /* ViewController.swift in Sources */,
 				4780B1852B349A6700FFF891 /* ProfileTwoViewController.swift in Sources */,
@@ -556,6 +563,7 @@
 				2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */,
 				2B0100312B36859500D0644D /* CreateOwnViewController.swift in Sources */,
 				2B0100372B36AFCB00D0644D /* Utils.swift in Sources */,
+				47D8F2FC2B3D93C1000D9CA8 /* ShareViewController.swift in Sources */,
 				47D9D0F12B32E01D00785291 /* AppDelegate.swift in Sources */,
 				2B01003E2B36D58F00D0644D /* LandingViewController.swift in Sources */,
 				47D9D0F32B32E01D00785291 /* SceneDelegate.swift in Sources */,

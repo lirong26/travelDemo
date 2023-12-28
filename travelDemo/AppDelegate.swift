@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         GMSServices.provideAPIKey("AIzaSyCY_fFt4wjOLlg7SC4fs1rDN4LYGULMd30")
+        GMSServices.setMetalRendererEnabled(true)
         return true
     }
 
