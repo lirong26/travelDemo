@@ -47,12 +47,12 @@ class GenerateViewController: UIViewController {
         addInfo()
         var timeout = 0
         infos.forEach { card in
-            DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(timeout), execute: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(timeout), execute: {
                 card.status = .loading
             })
-            timeout = timeout + 2
+            timeout = timeout + 1
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(timeout + 1), execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(timeout + 2), execute: {
             let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let viewController = mainStoryboard.instantiateViewController(identifier: "HomeViewController")
             self.navigationController?.pushViewController(viewController, animated: true);

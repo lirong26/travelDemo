@@ -19,6 +19,7 @@
 		2B01003E2B36D58F00D0644D /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01003D2B36D58F00D0644D /* LandingViewController.swift */; };
 		2BA5F3D02B37175E00393339 /* ProcessLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */; };
 		2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3D12B371BD700393339 /* LoadingCardView.swift */; };
+		2BE3AC722B3EC82000A9D13C /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BE3AC712B3EC82000A9D13C /* welcome.gif */; };
 		4727FD072B3AE70500093E9A /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727FD062B3AE70500093E9A /* MemoryViewController.swift */; };
 		474B17772B3AD979005B4697 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B17762B3AD979005B4697 /* PaymentViewController.swift */; };
 		475898A82B3ACCFA001475E6 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475898A72B3ACCFA001475E6 /* HotelViewController.swift */; };
@@ -33,7 +34,6 @@
 		47C51E422B3B29E300ED8F3B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C51E412B3B29E300ED8F3B /* launch.png */; };
 		47C51E442B3B29EB00ED8F3B /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C51E432B3B29EB00ED8F3B /* discover.png */; };
 		47D393B62B3C5329003F7BDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D393B52B3C5329003F7BDD /* LoginViewController.swift */; };
-		47D393B82B3D5BFB003F7BDD /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 47D393B72B3D5BFB003F7BDD /* welcome.gif */; };
 		47D8F2FA2B3D8467000D9CA8 /* CastleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8F2F92B3D8467000D9CA8 /* CastleViewController.swift */; };
 		47D8F2FC2B3D93C1000D9CA8 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8F2FB2B3D93C1000D9CA8 /* ShareViewController.swift */; };
 		47D9D0F12B32E01D00785291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D0F02B32E01D00785291 /* AppDelegate.swift */; };
@@ -81,6 +81,7 @@
 		2B01003D2B36D58F00D0644D /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessLoadingView.swift; sourceTree = "<group>"; };
 		2BA5F3D12B371BD700393339 /* LoadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCardView.swift; sourceTree = "<group>"; };
+		2BE3AC712B3EC82000A9D13C /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = welcome.gif; sourceTree = "<group>"; };
 		472503615225A67207F25362 /* Pods-travelDemo-travelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelDemo-travelDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4727FD062B3AE70500093E9A /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		474B17762B3AD979005B4697 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		47C51E412B3B29E300ED8F3B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		47C51E432B3B29EB00ED8F3B /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
 		47D393B52B3C5329003F7BDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		47D393B72B3D5BFB003F7BDD /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = welcome.gif; path = "../../../../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/649b4e28ca86fd44acbe3b417209ab0c/Message/MessageTemp/34c8956d7f0828cf89a147342484abcf/File/welcome.gif"; sourceTree = "<group>"; };
 		47D8F2F92B3D8467000D9CA8 /* CastleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleViewController.swift; sourceTree = "<group>"; };
 		47D8F2FB2B3D93C1000D9CA8 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		47D9D0ED2B32E01D00785291 /* travelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,9 +166,9 @@
 		2B01003A2B36D54600D0644D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2BE3AC712B3EC82000A9D13C /* welcome.gif */,
 				2B01003B2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif */,
 				47C51E432B3B29EB00ED8F3B /* discover.png */,
-				47D393B72B3D5BFB003F7BDD /* welcome.gif */,
 				47C51E412B3B29E300ED8F3B /* launch.png */,
 			);
 			path = Source;
@@ -384,10 +384,10 @@
 				47C51E422B3B29E300ED8F3B /* launch.png in Resources */,
 				47D9D0FD2B32E01E00785291 /* LaunchScreen.storyboard in Resources */,
 				47C51E442B3B29EB00ED8F3B /* discover.png in Resources */,
-				47D393B82B3D5BFB003F7BDD /* welcome.gif in Resources */,
 				2B01003C2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif in Resources */,
 				47D9D0FA2B32E01E00785291 /* Assets.xcassets in Resources */,
 				47D9D0F82B32E01D00785291 /* Main.storyboard in Resources */,
+				2BE3AC722B3EC82000A9D13C /* welcome.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
