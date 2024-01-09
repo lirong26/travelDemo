@@ -63,6 +63,26 @@ extension UIView {
             layer.shadowOffset = newValue
         }
     }
+    
+    @IBInspectable var borderColor: UIColor {
+        get {
+            return UIColor(cgColor: layer.borderColor ?? CGColor(red: 0, green: 0, blue: 0, alpha: 0))
+        }
+        set {
+            layer.borderColor = newValue.cgColor
+        }
+    }
+    
+    @IBInspectable var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
+    
+    
 }
 
 extension UIButton {

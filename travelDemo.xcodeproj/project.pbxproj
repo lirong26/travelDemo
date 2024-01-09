@@ -20,8 +20,11 @@
 		2BA5F3D02B37175E00393339 /* ProcessLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */; };
 		2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5F3D12B371BD700393339 /* LoadingCardView.swift */; };
 		2BE3AC722B3EC82000A9D13C /* welcome.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BE3AC712B3EC82000A9D13C /* welcome.gif */; };
+		471F2CE82B4D72D900B419BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471F2CE72B4D72D900B419BC /* Assets.xcassets */; };
 		4727FD072B3AE70500093E9A /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727FD062B3AE70500093E9A /* MemoryViewController.swift */; };
 		474B17772B3AD979005B4697 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B17762B3AD979005B4697 /* PaymentViewController.swift */; };
+		4751BE8E2B4D5755005DD927 /* firework.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4751BE8D2B4D5755005DD927 /* firework.gif */; };
+		4751BE902B4D57DE005DD927 /* OsakaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4751BE8F2B4D57DE005DD927 /* OsakaViewController.swift */; };
 		475898A82B3ACCFA001475E6 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475898A72B3ACCFA001475E6 /* HotelViewController.swift */; };
 		4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */; };
 		4780B1852B349A6700FFF891 /* ProfileTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B1842B349A6700FFF891 /* ProfileTwoViewController.swift */; };
@@ -31,6 +34,9 @@
 		4780B18F2B34E17200FFF891 /* HitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B18E2B34E17200FFF891 /* HitTestView.swift */; };
 		4780B1912B34E5B100FFF891 /* ToolboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780B1902B34E5B100FFF891 /* ToolboxViewController.swift */; };
 		478529552B3829E00005FAC1 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478529542B3829E00005FAC1 /* RestaurantViewController.swift */; };
+		47987E6D2B4D834D007EC424 /* ShareMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47987E6C2B4D834D007EC424 /* ShareMemoryViewController.swift */; };
+		47987E6F2B4D8379007EC424 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47987E6E2B4D8379007EC424 /* ShoppingViewController.swift */; };
+		47987E712B4D8399007EC424 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47987E702B4D8399007EC424 /* MissionViewController.swift */; };
 		47C51E422B3B29E300ED8F3B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C51E412B3B29E300ED8F3B /* launch.png */; };
 		47C51E442B3B29EB00ED8F3B /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 47C51E432B3B29EB00ED8F3B /* discover.png */; };
 		47D393B62B3C5329003F7BDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D393B52B3C5329003F7BDD /* LoginViewController.swift */; };
@@ -40,7 +46,6 @@
 		47D9D0F32B32E01D00785291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D0F22B32E01D00785291 /* SceneDelegate.swift */; };
 		47D9D0F52B32E01D00785291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D0F42B32E01D00785291 /* ViewController.swift */; };
 		47D9D0F82B32E01D00785291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D9D0F62B32E01D00785291 /* Main.storyboard */; };
-		47D9D0FA2B32E01E00785291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D9D0F92B32E01E00785291 /* Assets.xcassets */; };
 		47D9D0FD2B32E01E00785291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D9D0FB2B32E01E00785291 /* LaunchScreen.storyboard */; };
 		47D9D1082B32E01E00785291 /* travelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D1072B32E01E00785291 /* travelDemoTests.swift */; };
 		47D9D1122B32E01E00785291 /* travelDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9D1112B32E01E00785291 /* travelDemoUITests.swift */; };
@@ -82,9 +87,12 @@
 		2BA5F3CF2B37175E00393339 /* ProcessLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessLoadingView.swift; sourceTree = "<group>"; };
 		2BA5F3D12B371BD700393339 /* LoadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCardView.swift; sourceTree = "<group>"; };
 		2BE3AC712B3EC82000A9D13C /* welcome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = welcome.gif; sourceTree = "<group>"; };
+		471F2CE72B4D72D900B419BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472503615225A67207F25362 /* Pods-travelDemo-travelDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelDemo-travelDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-travelDemo-travelDemoUITests/Pods-travelDemo-travelDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4727FD062B3AE70500093E9A /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		474B17762B3AD979005B4697 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		4751BE8D2B4D5755005DD927 /* firework.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = firework.gif; sourceTree = "<group>"; };
+		4751BE8F2B4D57DE005DD927 /* OsakaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsakaViewController.swift; sourceTree = "<group>"; };
 		475898A72B3ACCFA001475E6 /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
 		4780B17E2B3451D000FFF891 /* UIView+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+cornerRadius.swift"; sourceTree = "<group>"; };
 		4780B1842B349A6700FFF891 /* ProfileTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTwoViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +102,9 @@
 		4780B18E2B34E17200FFF891 /* HitTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestView.swift; sourceTree = "<group>"; };
 		4780B1902B34E5B100FFF891 /* ToolboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxViewController.swift; sourceTree = "<group>"; };
 		478529542B3829E00005FAC1 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		47987E6C2B4D834D007EC424 /* ShareMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMemoryViewController.swift; sourceTree = "<group>"; };
+		47987E6E2B4D8379007EC424 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		47987E702B4D8399007EC424 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
 		47C51E412B3B29E300ED8F3B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		47C51E432B3B29EB00ED8F3B /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
 		47D393B52B3C5329003F7BDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -104,7 +115,6 @@
 		47D9D0F22B32E01D00785291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		47D9D0F42B32E01D00785291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47D9D0F72B32E01D00785291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		47D9D0F92B32E01E00785291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47D9D0FC2B32E01E00785291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47D9D0FE2B32E01E00785291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D9D1032B32E01E00785291 /* travelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +176,7 @@
 		2B01003A2B36D54600D0644D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4751BE8D2B4D5755005DD927 /* firework.gif */,
 				2BE3AC712B3EC82000A9D13C /* welcome.gif */,
 				2B01003B2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif */,
 				47C51E432B3B29EB00ED8F3B /* discover.png */,
@@ -204,8 +215,8 @@
 				47D9D0F02B32E01D00785291 /* AppDelegate.swift */,
 				47D9D0F22B32E01D00785291 /* SceneDelegate.swift */,
 				47D9D0F42B32E01D00785291 /* ViewController.swift */,
+				471F2CE72B4D72D900B419BC /* Assets.xcassets */,
 				47D9D0F62B32E01D00785291 /* Main.storyboard */,
-				47D9D0F92B32E01E00785291 /* Assets.xcassets */,
 				47D9D0FB2B32E01E00785291 /* LaunchScreen.storyboard */,
 				47D9D0FE2B32E01E00785291 /* Info.plist */,
 				2B0100302B36859500D0644D /* CreateOwnViewController.swift */,
@@ -226,6 +237,10 @@
 				47D393B52B3C5329003F7BDD /* LoginViewController.swift */,
 				47D8F2F92B3D8467000D9CA8 /* CastleViewController.swift */,
 				47D8F2FB2B3D93C1000D9CA8 /* ShareViewController.swift */,
+				4751BE8F2B4D57DE005DD927 /* OsakaViewController.swift */,
+				47987E6C2B4D834D007EC424 /* ShareMemoryViewController.swift */,
+				47987E6E2B4D8379007EC424 /* ShoppingViewController.swift */,
+				47987E702B4D8399007EC424 /* MissionViewController.swift */,
 			);
 			path = travelDemo;
 			sourceTree = "<group>";
@@ -382,11 +397,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				47C51E422B3B29E300ED8F3B /* launch.png in Resources */,
+				4751BE8E2B4D5755005DD927 /* firework.gif in Resources */,
 				47D9D0FD2B32E01E00785291 /* LaunchScreen.storyboard in Resources */,
 				47C51E442B3B29EB00ED8F3B /* discover.png in Resources */,
 				2B01003C2B36D57300D0644D /* japan_road_trip_shikoku_itineraire_etapes_carte_illustree.gif in Resources */,
-				47D9D0FA2B32E01E00785291 /* Assets.xcassets in Resources */,
 				47D9D0F82B32E01D00785291 /* Main.storyboard in Resources */,
+				471F2CE82B4D72D900B419BC /* Assets.xcassets in Resources */,
 				2BE3AC722B3EC82000A9D13C /* welcome.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,17 +574,21 @@
 				2B0100392B36C06A00D0644D /* NavigatorBar.swift in Sources */,
 				4780B18D2B34DFC200FFF891 /* RouteListViewController.swift in Sources */,
 				2B01002E2B36858300D0644D /* RoundHeaderView.swift in Sources */,
+				47987E6D2B4D834D007EC424 /* ShareMemoryViewController.swift in Sources */,
 				4780B17F2B3451D000FFF891 /* UIView+cornerRadius.swift in Sources */,
 				478529552B3829E00005FAC1 /* RestaurantViewController.swift in Sources */,
 				2BA5F3D22B371BD700393339 /* LoadingCardView.swift in Sources */,
 				2B0100312B36859500D0644D /* CreateOwnViewController.swift in Sources */,
+				4751BE902B4D57DE005DD927 /* OsakaViewController.swift in Sources */,
 				2B0100372B36AFCB00D0644D /* Utils.swift in Sources */,
+				47987E6F2B4D8379007EC424 /* ShoppingViewController.swift in Sources */,
 				47D8F2FC2B3D93C1000D9CA8 /* ShareViewController.swift in Sources */,
 				47D9D0F12B32E01D00785291 /* AppDelegate.swift in Sources */,
 				2B01003E2B36D58F00D0644D /* LandingViewController.swift in Sources */,
 				47D9D0F32B32E01D00785291 /* SceneDelegate.swift in Sources */,
 				4780B1892B34B26100FFF891 /* HomeViewController.swift in Sources */,
 				4780B18F2B34E17200FFF891 /* HitTestView.swift in Sources */,
+				47987E712B4D8399007EC424 /* MissionViewController.swift in Sources */,
 				4780B1912B34E5B100FFF891 /* ToolboxViewController.swift in Sources */,
 				474B17772B3AD979005B4697 /* PaymentViewController.swift in Sources */,
 				2B0100332B368C5D00D0644D /* ProfileOneViewController.swift in Sources */,

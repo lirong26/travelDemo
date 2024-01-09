@@ -27,6 +27,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let options = GMSMapViewOptions()
         options.frame = mapContainerView.bounds
         mapView = GMSMapView(options: options)
+        mapView.isBuildingsEnabled = true
         mapContainerView.addSubview(mapView)
         mapContainerView.sendSubviewToBack(mapView)
         
@@ -66,6 +67,19 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         polyline.spans = [span]
         polyline.map = mapView
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "homeToShareMemory") {
+            let vc = segue.destination as! ShareMemoryViewController
+            vc.homeVC = self
+        } else if (segue.identifier == "homeToShopping") {
+            let vc = segue.destination as! ShoppingViewController
+            vc.homeVC = self
+        } else if (segue.identifier == "homeToMission") {
+            let vc = segue.destination as! MissionViewController
+            vc.homeVC = self
+        }
     }
 
 }

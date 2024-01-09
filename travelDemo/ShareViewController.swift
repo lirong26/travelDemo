@@ -13,7 +13,7 @@ class ShareViewController: UIViewController, UICollectionViewDelegate, UICollect
     @IBOutlet weak var collectionView: UICollectionView!
     
     @IBAction func backBtnClicked(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        self.dismiss(animated: true)
     }
     
     override func viewDidLoad() {
